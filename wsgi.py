@@ -13,9 +13,9 @@ except IOError:
 
 sys.path.append(os.path.expanduser('~'))
 sys.path.append(os.path.expanduser('~') + '/ROOT/')
-sys.path.append(os.path.expanduser('~') + '/ROOT/ROOT/')
+sys.path.append(os.path.expanduser('~') + '/ROOT/helloworld/')
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'ROOT.settings.dev'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'helloworld.settings.dev'
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()    
