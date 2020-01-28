@@ -15,7 +15,7 @@ sys.path.append(os.path.expanduser('~'))
 sys.path.append(os.path.expanduser('~') + '/ROOT/')
 sys.path.append(os.path.expanduser('~') + '/ROOT/ROOT/')
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'ROOT.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'ROOT.settings.dev'
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()    
